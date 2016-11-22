@@ -1,0 +1,18 @@
+include ./static
+
+doctype html
+html 
+  head
+    meta(name="viewport", content="width=device-width, user-scalable=no, shrink-to-fit=no")
+    meta(name="apple-touch-fullscreen", content="YES")
+    meta(name="apple-mobile-web-app-capable", content="yes")
+    meta(name="format-detection", content="telephone=no")
+    meta(name="apple-mobile-web-app-status-bar-style", content="black")
+    meta(charset="UTF-8")
+    +css("/css/base.css")
+    block head
+  body
+    block body
+    +js("/vendor/js/zepto.js")
+    +js("/vendor/js/vue.js")
+    block js
