@@ -1,0 +1,24 @@
+{
+  "name": "Vue-Jade-Gulp-StartKit",
+  "version": "1.0.0",
+  "description": "The demo project use vue.js, jade and gulp.",
+  "main": "index.js",
+  "scripts": {
+    "preview": "rm -rf ./build && gulp preview",
+    "build": "rm -rf ./build && rm -rf ./final && gulp revreplace"
+  },
+  "author": "wuyingminhui@gmail.com",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.12.10",
+    "gulp": "^3.9.1",
+    "gulp-browserify": "^0.5.1",
+    "gulp-jade": "^1.1.0",
+    "gulp-rev-all": "^0.8.24",
+    "gulp-rev-replace": "^0.4.3",
+    "gulp-stylus": "^2.4.0",
+    "lodash": "^4.13.1",
+    "mysql": "^2.12.0",
+    "nib": "^1.1.0"
+  }
+}
