@@ -9,14 +9,14 @@ block body
     .line(v-for="data in udata", :class="{'hidden':loaded}")
       .title {{ data.meetingName }}
       .row1
-        .colc1 公司
-        .colc 公司所在地
-        .colc 产品名称
-        .colc CEO
-        .colc1 CEO 微信
-        .colc CEO 电话
-        .colc 公司规模
-        .colc 融资状态
+        .col1 公司
+        .col 公司所在地
+        .col 产品名称
+        .col CEO
+        .col1 CEO 微信
+        .col CEO 电话
+        .col 公司规模
+        .col 融资状态
       .row(v-for="mdata in data.listEU")
         .col1 {{ mdata.copName}}
         .col  {{ mdata.copCity}}
